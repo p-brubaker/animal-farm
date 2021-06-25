@@ -33,3 +33,32 @@ footer {
     background-color: #FAF0EA;
     padding: 10px;
 }
+
+#cat-image,
+#horse-image,
+#dog-image {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 20vw;
+    height: 34vh;
+}
+
+#cat-image {
+    position: absolute;
+    top: 55vh;
+    left: 25vw;
+}
+
+#dog-image {
+    position: absolute;
+    top: 20vh;
+    left: 40vw;
+}
+
+#horse-image {
+    position: absolute;
+    top: 55vh;
+    right: 25vw;
+}
+
+
